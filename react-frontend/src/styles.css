@@ -1,0 +1,119 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Full height for centering */
+}
+
+h1 {
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    width: 90%;
+    /* Make it responsive */
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px 20px;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+    /* Space between input and button */
+    margin-bottom: 20px;
+    /* Spacing between form and content */
+}
+
+.input-group input {
+    flex: 1;
+    /* Take remaining width */
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.btn {
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.list-group {
+    margin-top: 20px;
+    /* Add spacing above the list */
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #e9ecef;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    padding: 8px 12px;
+}
+
+.list-group-item span {
+    font-size: 14px;
+}
+
+.list-group-item .btn {
+    font-size: 12px;
+    padding: 6px 8px;
+    /* Compact button size */
+}
+
+.refresh-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.refresh-container h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 95%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .list-group-item span {
+        font-size: 12px;
+    }
+
+    .list-group-item .btn {
+        font-size: 10px;
+        padding: 4px 6px;
+    }
+}

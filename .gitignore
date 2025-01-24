@@ -1,0 +1,76 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Logs
+logs/
+*.log
+*.log.*
+pids/
+*.pid
+*.pid.lock
+
+# Runtime data
+tmp/
+temp/
+
+# Dependency directories
+jspm_packages/
+.bower_components/
+
+# Environment variables
+.env
+.env.*.local
+
+# Testing
+/coverage
+.nyc_output/
+*.lcov
+
+# Build outputs
+/build
+/dist
+/out
+.esbuild/
+
+# React-specific
+.vscode/
+.cache/
+public/*.map
+public/static/
+*.DS_Store
+
+# Docker
+**/Dockerfile*
+.dockerignore
+docker-compose*.yml
+*.tar
+*.container
+
+# Kubernetes YAML files
+*.yaml~
+*.yml~
+*.bak
+*.tmp
+
+# IDEs and Editors
+.idea/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+.vscode/
+*.code-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+*.lock
